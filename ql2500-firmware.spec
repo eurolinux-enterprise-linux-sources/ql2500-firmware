@@ -1,6 +1,6 @@
 Name:		ql2500-firmware
 Summary: 	Firmware for qlogic 2500 devices
-Version:	5.08.00
+Version:	7.00.01
 Release:	1%{?dist}
 License:	Redistributable, no modification permitted
 Group:		System Environment/Kernel
@@ -35,6 +35,9 @@ rm -rf %{buildroot}
 /lib/firmware/ql2500_fw.bin
 
 %changelog
+* Tue Aug 13 2013 Kyle McMartin <kmcmarti@redhat.com> - 7.00.01-1
+- update to 7.00.01
+
 * Wed Oct  3 2012 Tom Callaway <spot@fedoraproject.org> - 5.08.00-1
 - update to 5.08.00
 
