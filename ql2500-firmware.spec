@@ -1,6 +1,6 @@
 Name:		ql2500-firmware
 Summary: 	Firmware for qlogic 2500 devices
-Version:	7.00.01
+Version:	7.03.00
 Release:	1%{?dist}
 License:	Redistributable, no modification permitted
 Group:		System Environment/Kernel
@@ -35,6 +35,9 @@ rm -rf %{buildroot}
 /lib/firmware/ql2500_fw.bin
 
 %changelog
+* Wed Apr 30 2014 Kyle McMartin <kmcmarti@redhat.com> - 7.03.00-1
+- update to 7.03.00 from http://ldriver.qlogic.com/firmware/ (rhbz#1076497)
+
 * Tue Aug 13 2013 Kyle McMartin <kmcmarti@redhat.com> - 7.00.01-1
 - update to 7.00.01
 
